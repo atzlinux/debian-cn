@@ -1,0 +1,45 @@
+===== Debian-cn 2019.10.18 ===
+
+《Debian-cn 中文套件软件更新通知-- 搜狗输入法》
+
+搜狗输入法官网于 2019-10-17 发布了 64位最新版本：2.3.1.0112
+
+2019-10-17
+搜狗输入法 for Linux v2.3.1.0112
+1、新增五笔输入法。
+2、新增符号大全功能。
+3、新增跨Windows、Linux平台离线词库导入、导出、清空功能。
+4、修复用户输入特定词崩溃问题以及大量bug。
+5、已知问题：ubuntu1904上qq和微信无法登录问题需要升级qt库到4:4.8.7+dfsg-7ubuntu3
+
+https://pinyin.sogou.com/linux/changelog.php
+
+Debian-cn 今日已经在安装源完成更新。
+
+对已经安装过 Debian-cn 中文套件的用户，执行：
+
+apt update
+
+apt upgrade
+
+即可完成升级。
+
+
+新用户请使用下面的命令直接安装：
+一键安装脚本
+
+在终端命令行，用 root 执行如下命令即可：
+
+    下载一键安装脚本
+
+wget http://118.24.9.73/debian/download/install-all-single-script.sh
+
+注：i386 32 位的机器，请下载：
+
+wget http://118.24.9.73/debian/download/i386/install-all-single-script.sh
+
+    执行安装
+
+. ./install-all-single-script.sh
+
+注：前面是英文的 点 空格 点，表示在当前路径执行该脚本。
